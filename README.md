@@ -2,19 +2,13 @@
 
 Interactive **Julia set** visualizer built with **JavaScript + HTML Canvas**.
 
-Each pixel represents a point in the complex plane and is iterated using:
-
-\[
-z_{n+1} = z_n^2 + c
-\]
-
-The complex parameter **c** is controlled by the mouse, allowing real-time exploration of different Julia fractals.
+Each pixel is mapped to a point in the complex plane and iterated to determine whether it escapes, producing the characteristic Julia fractal patterns. The complex parameter **c** is controlled by the mouse, allowing real-time exploration.
 
 ---
 
 ## Features
 - Julia set rendering
-- Interactive control of `c`
+- Interactive control of the complex parameter `c`
 - Progressive zoom on click
 - Pan based on click position
 
